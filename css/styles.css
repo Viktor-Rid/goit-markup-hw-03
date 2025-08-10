@@ -56,9 +56,32 @@ h6 p {
 
 /*hero-image*/
 .main-section h1 {
-    padding: 188px 0 188px;
+
     max-width: 496px;
 }
+
+.main-text {
+    padding: 188px 0 188px;
+}
+
+.main-button {
+
+    margin-bottom: 188px;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    background-color: #4d5ae5;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
 
 .nav-menu {
     display: flex;
