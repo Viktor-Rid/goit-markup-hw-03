@@ -132,8 +132,17 @@ h6 p {
     font-style: normal;
 }
 
+/*main section styles*/
 .main-section {
     background-color: #2e2f42;
+}
+
+.main.container {
+    max-width: 1158px;
+    border: 2px solid red;
+    display: flex;
+    align-items: center;
+
 }
 
 .main-text {
@@ -142,6 +151,9 @@ h6 p {
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
+    padding-top: 188px;
+    padding-bottom: 292px;
+    max-width: 496px;
 }
 
 .main-button {
