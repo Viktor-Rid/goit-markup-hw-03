@@ -56,12 +56,14 @@ h6 p {
 
 /*hero-image*/
 .main-section h1 {
-
+    padding: 188px 0 188px;
     max-width: 496px;
+    display: flex;
 }
 
-.main-text {
-    padding: 188px 0 188px;
+.main-section {
+    background-color: #2e2f42;
+
 }
 
 .main-button {
@@ -71,10 +73,33 @@ h6 p {
     min-width: 169px;
     height: 56px;
     border: none;
-    background-color: #4d5ae5;
     border-radius: 4px;
     cursor: pointer;
+    background-color: #4d5ae5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
 }
+
+
+.main-text {
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+
+}
+
+
+.main-button:hover,
+.main-button:focus {
+    background-color: #404BBF;
+}
+
 
 
 
@@ -160,36 +185,7 @@ h6 p {
     font-style: normal;
 }
 
-.main-section {
-    background-color: #2e2f42;
-}
 
-.main-text {
-    font-size: 56px;
-    line-height: 1.07;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #fff;
-}
-
-.main-button {
-    background-color: #4d5ae5;
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #fff;
-}
-
-.main-button:hover,
-.main-button:focus {
-    background-color: #404BBF;
-}
-
-.main-button {
-    cursor: pointer;
-}
 
 .feature {
     font-weight: 500;
