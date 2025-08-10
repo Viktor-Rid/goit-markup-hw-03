@@ -137,11 +137,20 @@ h6 p {
     background-color: #2e2f42;
 }
 
-.main.container {
+.container {
     max-width: 1158px;
-    border: 2px solid red;
+    border: 2px solid #404BBF;
     display: flex;
     align-items: center;
+
+}
+
+.main-img {
+    padding: 188px 0 188px;
+}
+
+.h1-text {
+    max-width: 496px;
 
 }
 
@@ -152,7 +161,6 @@ h6 p {
     text-align: center;
     color: #fff;
     padding: 188px 0 188px;
-    max-width: 496px
 }
 
 .main-button {
