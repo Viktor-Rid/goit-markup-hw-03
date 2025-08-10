@@ -151,9 +151,8 @@ h6 p {
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
-    padding-top: 188px;
-    padding-bottom: 188px;
-
+    padding: 188px 0 188px;
+    max-width: 496px
 }
 
 .main-button {
