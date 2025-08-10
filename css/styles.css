@@ -4,8 +4,6 @@ body {
     background-color: #FFFFFF;
 }
 
-
-
 a {
     text-decoration: none;
 }
@@ -16,6 +14,7 @@ a {
     padding: 0 15px;
     margin: 0 auto;
     border: 2px solid red;
+    box-sizing: border-box;
 }
 
 ul,
@@ -53,6 +52,11 @@ h6 p {
     display: flex;
     align-items: center;
 
+}
+
+/*hero-image*/
+.main-section h1 {
+    padding-top: 188px
 }
 
 .nav-menu {
@@ -132,20 +136,8 @@ h6 p {
     font-style: normal;
 }
 
-/*main section styles*/
 .main-section {
     background-color: #2e2f42;
-}
-
-.container {
-    padding: 0 15px;
-    margin: 0 auto;
-    border: 3px solid #404BBF;
-}
-
-
-.h1-text {
-    max-width: 496px;
 }
 
 .main-text {
@@ -154,7 +146,6 @@ h6 p {
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
-
 }
 
 .main-button {
@@ -259,4 +250,3 @@ h6 p {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
-}
