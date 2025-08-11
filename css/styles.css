@@ -200,7 +200,7 @@ h6 p {
     padding: 120px 0 120px;
     align-items: center;
     justify-content: space-between;
-    padding: 10px;
+
 }
 
 .benefits-list {
@@ -208,8 +208,8 @@ h6 p {
     gap: 24px;
 }
 
-.benefit-item {
-    width: calc(100-(3*24px))/34;
+.benefits-list .benefit-item {
+    width: calc((100% - 32px) / 4)
 }
 
 .feature {
