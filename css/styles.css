@@ -230,7 +230,17 @@ h6 p {
 /* ====== TEAM ======*/
 
 .team {
-    background-color: #F4F4FD;
+    background-color: #b6b6f4;
+    display: flex;
+    padding: 120px 0 120px;
+
+}
+
+.team-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: ;
 }
 
 .section-team {
