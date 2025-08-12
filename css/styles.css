@@ -230,7 +230,7 @@ h6 p {
 /* ====== TEAM ======*/
 
 .team {
-    background-color: #b6b6f4;
+    background: #f4f4fd;
     padding: 120px 0 120px;
 
 }
@@ -243,13 +243,11 @@ h6 p {
 
 .team-info {
     width: calc((100% - 72px) / 4);
-
-
-}
-
-.team-info {
     border-radius: 0px 0px 4px 4px;
+
 }
+
+
 
 .team-foto {}
 
@@ -297,6 +295,19 @@ h6 p {
 
 /* ====== portfolio ====== */
 
+.portfolio {
+    background-color: #b6b6f4;
+    padding: 120px 0 120px 0;
+
+}
+
+.portfolio-h2 {
+    margin-bottom: 72px;
+    text-align: center;
+
+}
+
+
 .portfolio-item {
     font-size: 36px;
     line-height: 1.11;
@@ -304,11 +315,17 @@ h6 p {
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
+    height: 420px;
+    ;
+
 }
 
-.portfolio-name {
-    color: #2e2f42;
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
 }
+
 
 .portfolio-name {
     font-weight: 500;
@@ -316,6 +333,11 @@ h6 p {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-right: 24px;
+}
+
+.potfolio-li3 {
+    margin-right: 0;
 }
 
 .portfolio-text {
