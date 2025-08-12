@@ -231,7 +231,6 @@ h6 p {
 
 .team {
     background-color: #b6b6f4;
-    display: flex;
     padding: 120px 0 120px;
 
 }
@@ -240,7 +239,30 @@ h6 p {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
-    justify-content: ;
+
+}
+
+.team-list .team-info {
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+
+}
+
+.team-overlay {
+    padding: 32px 0 32px;
+}
+
+.team-overlay .h3 {
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.team-overlay .p {
+    text-align: center;
 }
 
 .section-team {
@@ -250,6 +272,8 @@ h6 p {
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
+    margin-bottom: 72px;
+
 }
 
 .team-info {
