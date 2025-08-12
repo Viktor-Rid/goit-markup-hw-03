@@ -239,17 +239,16 @@ h6 p {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
+}
+
+.team-info {
+    width: calc((100% - 72px) / 4);
 
 
 }
 
-
-.team-list .team-info {
-    width: calc((100% - 72px) / 4);
+.team-info {
     border-radius: 0px 0px 4px 4px;
-
-
-
 }
 
 .team-foto {}
