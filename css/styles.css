@@ -256,12 +256,12 @@ h6 p {
     padding: 32px 0 32px;
 }
 
-.team-overlay .h3 {
+.team-overlay .team-name {
     text-align: center;
     margin-bottom: 8px;
 }
 
-.team-overlay .p {
+.team-overlay .team-text {
     text-align: center;
 }
 
