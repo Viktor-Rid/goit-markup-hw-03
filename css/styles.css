@@ -244,13 +244,16 @@ h6 p {
 
 .team-list .team-info {
     width: calc((100% - 72px) / 4);
-    border-radius: 0px 0px 4px 4px;
+
 
 
 }
 
+
+
 .team-overlay {
     padding: 32px 0 32px;
+    border-radius: 0px 0px 4px 4px;
 }
 
 .team-overlay .team-name {
