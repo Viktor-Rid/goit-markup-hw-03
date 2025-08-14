@@ -8,6 +8,10 @@ a {
     text-decoration: none;
 }
 
+img {
+    display: block;
+}
+
 /* ======= Reset some default styles ======= */
 .container {
     max-width: 1158px;
