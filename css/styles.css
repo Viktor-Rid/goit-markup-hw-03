@@ -300,11 +300,9 @@ img {
 .portfolio {
     background-color: #b6b6f4;
     padding: 120px 0 120px;
-
 }
 
 .second-title {
-
     margin-bottom: 72px;
     text-align: center;
 }
@@ -329,7 +327,6 @@ img {
     background: #fff;
     margin-bottom: 48px;
     width: calc((100% - 48px) / 3);
-    transition-property: box-shadow;
 
 
 }
