@@ -317,7 +317,7 @@ img {
     margin-bottom: 48px;
 }
 
-.portfolio-list .portfolio-item {
+.portfolio-card {
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
