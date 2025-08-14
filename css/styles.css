@@ -302,8 +302,15 @@ h6 p {
 }
 
 .second-title {
+    display: flex;
     margin-bottom: 72px;
     text-align: center;
+
+}
+
+.portfolio-list {
+    row-gap: 48px;
+    margin-bottom: 48px;
 
 }
 
@@ -318,7 +325,7 @@ h6 p {
     height: 420px;
     width: calc((100% - 48px) / 3);
     background: #fff;
-    row-gap: 48px;
+
     margin-bottom: 48px;
 
 }
