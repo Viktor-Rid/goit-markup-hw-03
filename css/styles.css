@@ -30,7 +30,8 @@ h2,
 h3,
 h4,
 h5,
-h6 p {
+h6,
+p {
     margin: 0;
 }
 
@@ -203,11 +204,7 @@ img {
 }
 
 .benefits {
-    display: flex;
     padding: 120px 0 120px;
-    align-items: center;
-    justify-content: space-between;
-
 }
 
 .benefits-list {
@@ -305,6 +302,12 @@ img {
 .second-title {
     margin-bottom: 72px;
     text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
 .portfolio-list {
@@ -312,20 +315,11 @@ img {
     align-items: center;
     gap: 24px;
     row-gap: 48px;
-    margin-bottom: 48px;
     flex-wrap: wrap;
 }
 
 .portfolio-list .portfolio-card {
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #2e2f42;
-    text-transform: capitalize;
-    height: 420px;
     background: #fff;
-    margin-bottom: 48px;
     width: calc((100% - 48px) / 3);
 }
 
@@ -342,7 +336,6 @@ img {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    margin-right: 24px;
     margin-bottom: 8px;
 }
 
@@ -373,7 +366,11 @@ img {
 }
 
 .footer-text {
+    font-weight: 400;
+    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+    width: 264px;
+    height: 112px;
 }
